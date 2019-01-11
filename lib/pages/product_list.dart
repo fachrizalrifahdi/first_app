@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:scoped_model/scoped_model.dart';
 
-import './product_edit.dart';
-import '../scoped-models/main.dart';
+import 'package:first_app/pages/product_edit.dart';
+import 'package:first_app/scoped-models/main.dart';
 
 class ProductListPage extends StatefulWidget {
   final MainModel model;
@@ -71,7 +71,7 @@ class _ProductListPageState extends State<ProductListPage> {
                     ),
                     title: Text(model.allProducts[index].title),
                     subtitle:
-                        Text('\$${model.allProducts[index].price.toString()}'),
+                        Text('\IDR ${model.allProducts[index].price.toString()}'),
                     trailing: _buildEditButton(context, index, model),
                   ),
                   Divider(),

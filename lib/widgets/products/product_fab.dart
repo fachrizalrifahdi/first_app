@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../models/product.dart';
-import '../../scoped-models/main.dart';
+import 'package:first_app/models/product.dart';
+import 'package:first_app/scoped-models/main.dart';
 
 class ProductFAB extends StatefulWidget {
   final Product product;

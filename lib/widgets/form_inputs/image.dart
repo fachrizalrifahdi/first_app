@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:image_picker/image_picker.dart';
 
-import '../../models/product.dart';
+import 'package:first_app/models/product.dart';
 
 class ImageInput extends StatefulWidget {
   final Function setImage;

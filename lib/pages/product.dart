@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 import 'package:map_view/map_view.dart';
 
-import '../widgets/ui_elements/title_default.dart';
-import '../widgets/products/product_fab.dart';
-import '../models/product.dart';
+import 'package:first_app/widgets/ui_elements/title_default.dart';
+import 'package:first_app/widgets/products/product_fab.dart';
+import 'package:first_app/models/product.dart';
 
 class ProductPage extends StatelessWidget {
   final Product product;
@@ -100,7 +100,7 @@ class ProductPage extends StatelessWidget {
                     image: NetworkImage(product.image),
                     height: 300.0,
                     fit: BoxFit.cover,
-                    placeholder: AssetImage('assets/food.jpg'),
+                    placeholder: AssetImage('assets/item.jpg'),
                   ),
                 ),
               ),

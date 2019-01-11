@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 final ThemeData _androidTheme = ThemeData(
   brightness: Brightness.light,
-  primarySwatch: Colors.deepOrange,
-  accentColor: Colors.deepPurple,
-  buttonColor: Colors.deepPurple,
+  primarySwatch: Colors.blue,
+  accentColor: Colors.blue,
+  buttonColor: Colors.blue,
 );
 
 final ThemeData _iOSTheme = ThemeData(

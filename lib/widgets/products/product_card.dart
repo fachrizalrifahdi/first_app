@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:scoped_model/scoped_model.dart';
 
-import './price_tag.dart';
-import './address_tag.dart';
-import '../ui_elements/title_default.dart';
-import '../../models/product.dart';
-import '../../scoped-models/main.dart';
+import 'package:first_app/widgets/products/price_tag.dart';
+import 'package:first_app/widgets/products/address_tag.dart';
+import 'package:first_app/widgets/ui_elements/title_default.dart';
+import 'package:first_app/models/product.dart';
+import 'package:first_app/scoped-models/main.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
@@ -78,7 +78,7 @@ class ProductCard extends StatelessWidget {
               image: NetworkImage(product.image),
               height: 300.0,
               fit: BoxFit.cover,
-              placeholder: AssetImage('assets/food.jpg'),
+              placeholder: AssetImage('assets/item.jpg'),
             ),
           ),
           _buildTitlePriceRow(),

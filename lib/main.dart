@@ -8,15 +8,15 @@ import 'package:map_view/map_view.dart';
 
 // import 'package:flutter/rendering.dart';
 
-import './pages/auth.dart';
-import './pages/products_admin.dart';
-import './pages/products.dart';
-import './pages/product.dart';
-import './scoped-models/main.dart';
-import './models/product.dart';
-import './widgets/helpers/custom_route.dart';
-import './shared/global_config.dart';
-import './shared/adaptive_theme.dart';
+import 'package:first_app/pages/auth.dart';
+import 'package:first_app/pages/products_admin.dart';
+import 'package:first_app/pages/products.dart';
+import 'package:first_app/pages/product.dart';
+import 'package:first_app/scoped-models/main.dart';
+import 'package:first_app/models/product.dart';
+import 'package:first_app/widgets/helpers/custom_route.dart';
+import 'package:first_app/shared/global_config.dart';
+import 'package:first_app/shared/adaptive_theme.dart';
 
 void main() {
   // debugPaintSizeEnabled = true;
@@ -68,7 +68,7 @@ class _MyAppState extends State<MyApp> {
     return ScopedModel<MainModel>(
       model: _model,
       child: MaterialApp(
-        title: 'EasyList',
+        title: 'ItemList',
         // debugShowMaterialGrid: true,
         theme: getAdaptiveThemeData(context),
         // home: AuthPage(),

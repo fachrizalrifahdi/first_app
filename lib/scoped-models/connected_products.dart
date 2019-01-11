@@ -9,10 +9,10 @@ import 'package:rxdart/subjects.dart';
 import 'package:mime/mime.dart';
 import 'package:http_parser/http_parser.dart';
 
-import '../models/product.dart';
-import '../models/user.dart';
-import '../models/auth.dart';
-import '../models/location_data.dart';
+import 'package:first_app/models/product.dart';
+import 'package:first_app/models/user.dart';
+import 'package:first_app/models/auth.dart';
+import 'package:first_app/models/location_data.dart';
 
 mixin ConnectedProductsModel on Model {
   List<Product> _products = [];

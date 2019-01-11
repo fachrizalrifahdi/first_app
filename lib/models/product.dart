@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './location_data.dart';
+import 'package:first_app/models/location_data.dart';
 
 class Product {
   final String id;

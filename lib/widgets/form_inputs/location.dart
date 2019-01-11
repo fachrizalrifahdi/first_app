@@ -6,10 +6,10 @@ import 'package:map_view/map_view.dart';
 import 'package:http/http.dart' as http;
 import 'package:location/location.dart' as geoloc;
 
-import '../helpers/ensure_visible.dart';
-import '../../models/location_data.dart';
-import '../../models/product.dart';
-import '../../shared/global_config.dart';
+import 'package:first_app/widgets/helpers/ensure_visible.dart';
+import 'package:first_app/models/location_data.dart';
+import 'package:first_app/models/product.dart';
+import 'package:first_app/shared/global_config.dart';
 
 class LocationInput extends StatefulWidget {
   final Function setLocation;

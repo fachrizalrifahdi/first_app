@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:scoped_model/scoped_model.dart';
 
-import '../widgets/products/products.dart';
-import '../widgets/ui_elements/logout_list_tile.dart';
-import '../scoped-models/main.dart';
+import 'package:first_app/widgets/products/products.dart';
+import 'package:first_app/widgets/ui_elements/logout_list_tile.dart';
+import 'package:first_app/scoped-models/main.dart';
 
 class ProductsPage extends StatefulWidget {
   final MainModel model;
@@ -70,7 +70,7 @@ class _ProductsPageState extends State<ProductsPage> {
     return Scaffold(
       drawer: _buildSideDrawer(context),
       appBar: AppBar(
-        title: Text('EasyList'),
+        title: Text('ItemList'),
         elevation: 
               Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
         actions: <Widget>[
